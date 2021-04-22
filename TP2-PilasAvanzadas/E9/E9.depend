@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1619059304 source:k:\utn\programacion y laboratorio\proyectos\tp2-pilasavanzadas\e9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+	"windows.h"
+
+1618566646 k:\utn\programacion y laboratorio\proyectos\tp2-pilasavanzadas\e9\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1618566646 source:k:\utn\programacion y laboratorio\proyectos\tp2-pilasavanzadas\e9\pila.c
+	"pila.h"
+

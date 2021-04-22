@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1618845078 source:k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e10\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	"pila.h"
+
+1618566730 k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e10\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1618566728 source:k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e10\pila.c
+	"pila.h"
+
