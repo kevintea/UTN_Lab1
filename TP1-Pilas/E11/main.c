@@ -1,11 +1,15 @@
-
-///11. Suponiendo la existencia de una pila MODELO que no esté vacía, eliminar de
-/// la pila DADA todos los elementos que sean iguales al tope de la pila MODELO.
+/**
+11. Suponiendo la existencia de una pila MODELO que no esté vacía, eliminar de
+la pila DADA todos los elementos que sean iguales al tope de la pila MODELO.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
+#include <time.h>
 #include "pila.h"
+
+#define ESC 27
 
 int main()
 {
@@ -14,6 +18,7 @@ int main()
     inicpila(&modelo);
     inicpila(&aux);
     inicpila(&basura);
+    srand(time(NULL));
     int nro;
     char option;
 
@@ -33,15 +38,15 @@ int main()
         printf("\n Ingrese una edad:");
         scanf("%d", &nro);
         apilar(&dada, nro);
-        printf("\n ESC para Salir - presione cualquier tecla para continuar. ");
+        printf("\n\n\t ESC para Salir - presione cualquier tecla para continuar. \n");
         option=getch();
         system("cls");
     }
-    while(option !=27);
+    while(option !=ESC);
 
-    printf("\n Pila Dada");
+    printf("\n Pila Dada:\n");
     mostrar(&dada);
-    printf("\n Pila Modelo");
+    printf("\n Pila Modelo:\n");
     mostrar(&modelo);
 
     ///CONDICION DE COMPROBACION DE TOPES Y REDIRECCIONANDO LOS ELEMENTOS REPETIDOS
@@ -64,9 +69,9 @@ int main()
         apilar(&dada, desapilar(&aux));
     }
 
-    printf("\n Pila Dada");
+    printf("\n Pila Dada:\n");
     mostrar(&dada);
-    printf("\n Pila Modelo");
+    printf("\n Pila Modelo:\n");
     mostrar(&modelo);
 
     return 0;

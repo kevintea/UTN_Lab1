@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1618917012 source:k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+
+1618566694 k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e3\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1618566694 source:k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e3\pila.c
+	"pila.h"
+
+1618917012 source:k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp1-pilas\e03\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+
+1618566694 k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp1-pilas\e03\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1618566694 source:k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp1-pilas\e03\pila.c
+	"pila.h"
+

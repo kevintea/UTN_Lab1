@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1618566684 source:k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp1-pilas\e07\pila.c
+	"pila.h"
+
+1618566686 k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp1-pilas\e07\pila.h
+	<stdio.h>
+	<malloc.h>
+

@@ -18,48 +18,44 @@ int main()
     inicpila(&b);
     inicpila(&auxA);
     inicpila(&auxB);
-
     char opcion;
 
-    /// CARGA DE A POR USUARIO
+    ///CICLO DE CARGA DE A POR USUARIO
     do
     {
-        printf("\n Carga pila A \n");
+        printf("\n Carga pila A: \n");
         leer(&a);
-
-        printf("\n\n ESC para salir - presione cualquier tecla para continuar ");
+        printf("\n\n\t ESC para salir - presione cualquier tecla para continuar.\n ");
         opcion=getch();
         system("cls");
     }
     while(opcion!=ESC);
 
-    /// CARGA DE B POR USUARIO
+    ///CICLO DE CARGA DE B POR USUARIO
     do
     {
-        printf("\n Carga pila B \n");
+        printf("\n Carga pila B: \n");
         leer(&b);
-
-        printf("\n\n ESC para salir - presione cualquier tecla para continuar ");
+        printf("\n\n\t ESC para salir - presione cualquier tecla para continuar.\n ");
         opcion=getch();
         system("cls");
     }
     while(opcion!=ESC);
 
-    /// MUESTRO LOS VALORES
+    ///MUESTRO LAS PILAS
     printf("\n\n Pila A ");
     mostrar(&a);
-
     printf("\n\n Pila B ");
     mostrar(&b);
 
-    /// RECORRO LOS VALORES BUSCANDO LA IGUALDAD EN TOPES Y MIENTRAS NO ESTEN VACIAS
+    ///RECORRO LOS VALORES BUSCANDO LA IGUALDAD EN TOPES Y MIENTRAS NO ESTEN VACIAS
     while((!pilavacia(&a))&&(!pilavacia(&b))&&(tope(&a)==tope(&b)))
     {
         apilar(&auxA, desapilar(&a));
         apilar(&auxB, desapilar(&b));
     }
 
-    /// SI SE VACIARON JUNTAS SON IGUALES
+    ///SI SE VACIARON JUNTAS SON IGUALES
     if((pilavacia(&a))&&(pilavacia(&b)))
     {
         printf("\n\n Las pilas son iguales\n");
@@ -69,12 +65,11 @@ int main()
         printf("\n\n Las pilas NO son iguales\n");
     }
 
-    /// DEVUELVO LOS VALORES A SU ESTADO ORIGINAL
+    ///DEVUELVO LOS VALORES A SU ESTADO ORIGINAL
     while(!pilavacia(&auxA))
     {
         apilar(&a, desapilar(&auxA));
     }
-
     while(!pilavacia(&auxB))
     {
         apilar(&b, desapilar(&auxB));

@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1618566680 source:k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e9\pila.c
-	"pila.h"
-
-1618566682 k:\utn\programacion y laboratorio\proyectos\tp1-pilas\e9\pila.h
-	<stdio.h>
-	<malloc.h>
-
