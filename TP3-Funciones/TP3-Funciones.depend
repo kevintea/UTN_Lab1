@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1490112217 source:c:\users\zalazar\onedrive\documentos\utn\programacion\tpprogramacion2021\practico3funciones\funcionespila\pila.c
+	"pila.h"
+
+1490112217 c:\users\zalazar\onedrive\documentos\utn\programacion\tpprogramacion2021\practico3funciones\funcionespila\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1618623999 source:c:\users\zalazar\onedrive\documentos\utn\programacion\tpprogramacion2021\practico3funciones\funcionespila\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+	<conio.h>
+
+1490112217 source:c:\users\kevin\desktop\practico3funciones\funcionespila\pila.c
+	"pila.h"
+
+1490112217 c:\users\kevin\desktop\practico3funciones\funcionespila\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1619461522 source:c:\users\kevin\desktop\practico3funciones\funcionespila\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	"pila.h"
+
+1619535805 source:k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp3-funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	"pila.h"
+
+1490112217 k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp3-funciones\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1490112217 source:k:\utn\programacion y laboratorio\tp-terminados\utn_lab1\tp3-funciones\pila.c
+	"pila.h"
+
