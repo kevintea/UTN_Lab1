@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1618566676 source:k:\utn\programacion y laboratorio\proyectos\tp3-funcionesbis\tp3-funcionesbis\pila.c
+	"pila.h"
+
+1618566678 k:\utn\programacion y laboratorio\proyectos\tp3-funcionesbis\tp3-funcionesbis\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1620102171 source:k:\utn\programacion y laboratorio\proyectos\tp3-funcionesbis\tp3-funcionesbis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<conio.h>
+	<time.h>
+	"pila.h"
+
